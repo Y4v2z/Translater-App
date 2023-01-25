@@ -7,7 +7,8 @@ const exchange = document.querySelector(".exchange");
 const icons = document.querySelectorAll(".icons");
 // console.log(languages);
 for (let lang in languages) {
-    // console.log(lang, languages[lang]);
+    // console.log(lang, languages[lang]); 
+    // For in döngüsünde key ve value bu şekilde yazılır.
     let option = `<option value="${lang}">${languages[lang]}</option>`;
     fromLang.insertAdjacentHTML("beforeend", option);
     toLang.insertAdjacentHTML("beforeend", option);
