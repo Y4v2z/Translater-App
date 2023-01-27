@@ -51,10 +51,19 @@ h1 {
 
 .controls #fromLang {
     border-radius: 3px;
+    cursor: pointer;
+
 }
 
 .controls #toLang {
     border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.controls .exchange i {
+    cursor: pointer;
+
 }
 
 .text-controls {
